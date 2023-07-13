@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "title": "My Account: #949414519",
+        "childNodes": [
+            {
+                "id": 2,
+                "title": "My Container",
+                "childNodes": [{
+                    "id": 3,
+                    "title": "Draft: (1)",
+                    "childNodes": [{
+                        "id": 4,
+                        "title": "Camapaign 1"
+                    }]
+                }]
+            },
+            {
+                "id": 5,
+                "title": "Users",
+                "childNodes": [
+                    {
+                        "id": 6,
+                        "title": "User1"
+                    },
+                    {
+                        "id": 6,
+                        "title": "User 2"
+                    }
+                ] 
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "title": "MainAccount: #4705432867",
+        "childNodes": [
+            {
+                "id": 2,
+                "title": "AnotherContainerInMainAccount",
+                "childNodes": [{
+                    "id": 3,
+                    "title": "Draft: (2)",
+                    "childNodes": [{
+                        "id": 4,
+                        "title": "helloworld"
+                    },
+                    {
+                        "id": 5,
+                        "title": "hello"
+                    }]
+                }]
+            }
+        ]
+    }
+]
