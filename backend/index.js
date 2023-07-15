@@ -2,6 +2,7 @@ const express = require('express');
 const fs = require('fs');
 const app = express();
 
+//fetch json data from file
 app.get('/getTreeViewData', function (req, res) {
     res.header("Access-Control-Allow-Origin", "*");
     fs.readFile("./data/data.json", "utf-8", (err, data) => {
