@@ -1,53 +1,77 @@
 [
     {
         "id": 1,
-        "title": "My Account: #949414519",
+        "title": "My Account",
+        "checked": false,
+        "parentId": 0,
         "childNodes": [
             {
-                "id": 2,
+                "id": 3,
                 "title": "My Container",
+                "parentId": 1,
+                "checked": false,
                 "childNodes": [{
-                    "id": 3,
-                    "title": "Draft: (1)",
+                    "id": 6,
+                    "title": "Draft",
+                    "parentId": 2,
+                    "checked": false,
                     "childNodes": [{
-                        "id": 4,
-                        "title": "Camapaign 1"
+                        "id": 10,
+                        "parentId": 3,
+                        "title": "Camapaign",
+                        "checked": false
                     }]
                 }]
             },
             {
-                "id": 5,
+                "id": 4,
                 "title": "Users",
+                "parentId": 1,
+                "checked": false,
                 "childNodes": [
                     {
-                        "id": 6,
-                        "title": "User1"
+                        "id": 7,
+                        "parentId": 5,
+                        "title": "User",
+                        "checked": false
                     },
                     {
-                        "id": 6,
-                        "title": "User 2"
+                        "id": 8,
+                        "parentId": 5,
+                        "title": "User",
+                        "checked": false
                     }
                 ] 
             }
         ]
     },
     {
-        "id": 1,
-        "title": "MainAccount: #4705432867",
+        "id": 2,
+        "title": "MainAccount",
+        "parentId": 0,
+        "checked": false,
         "childNodes": [
             {
-                "id": 2,
+                "id": 5,
                 "title": "AnotherContainerInMainAccount",
+                "parentId": 1,
+                "checked": false,
                 "childNodes": [{
-                    "id": 3,
-                    "title": "Draft: (2)",
+                    "id": 9,
+                    "title": "Draft",
+                    "parentId": 2,
+                    "checked": false,
                     "childNodes": [{
-                        "id": 4,
-                        "title": "helloworld"
+                        "id": 11,
+                        "parentId": 3,
+                        "title": "helloworld",
+                        "checked": false
                     },
                     {
-                        "id": 5,
-                        "title": "hello"
+                        "id": 12,
+                        "parentId": 3,
+                        "title": "hello",
+                        "checked": false
                     }]
                 }]
             }
