@@ -7,7 +7,7 @@ const IndeterminateCheckbox = () => {
 
   // fetch api for tree like JSON data
   useEffect(() => {
-    fetch("http://localhost:4000/getTreeViewData", {
+    fetch("http://16.170.215.48:4000/getTreeViewData", {
       "method": "GET"
     }).then((res) => {
       res.json().then((data) => {
